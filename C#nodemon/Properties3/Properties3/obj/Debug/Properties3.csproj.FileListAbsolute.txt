@@ -1,0 +1,6 @@
+C:\Users\anihy\source\repos\Properties3\Properties3\bin\Debug\Properties3.exe.config
+C:\Users\anihy\source\repos\Properties3\Properties3\bin\Debug\Properties3.exe
+C:\Users\anihy\source\repos\Properties3\Properties3\bin\Debug\Properties3.pdb
+C:\Users\anihy\source\repos\Properties3\Properties3\obj\Debug\Properties3.csproj.CoreCompileInputs.cache
+C:\Users\anihy\source\repos\Properties3\Properties3\obj\Debug\Properties3.exe
+C:\Users\anihy\source\repos\Properties3\Properties3\obj\Debug\Properties3.pdb

@@ -1,0 +1,14 @@
+C:\Users\anihy\source\repos\0903\0903\obj\Debug\0903.csprojAssemblyReference.cache
+C:\Users\anihy\source\repos\0903\0903\obj\Debug\0903.csproj.CoreCompileInputs.cache
+C:\Users\anihy\source\repos\0903\0903\bin\Debug\0903.exe.config
+C:\Users\anihy\source\repos\0903\0903\bin\Debug\0903.exe
+C:\Users\anihy\source\repos\0903\0903\bin\Debug\0903.pdb
+C:\Users\anihy\source\repos\0903\0903\obj\Debug\0903.exe
+C:\Users\anihy\source\repos\0903\0903\obj\Debug\0903.pdb
+C:\Users\anihy\source\repos\C#\0903\0903\bin\Debug\0903.exe.config
+C:\Users\anihy\source\repos\C#\0903\0903\bin\Debug\0903.exe
+C:\Users\anihy\source\repos\C#\0903\0903\bin\Debug\0903.pdb
+C:\Users\anihy\source\repos\C#\0903\0903\obj\Debug\0903.csprojAssemblyReference.cache
+C:\Users\anihy\source\repos\C#\0903\0903\obj\Debug\0903.csproj.CoreCompileInputs.cache
+C:\Users\anihy\source\repos\C#\0903\0903\obj\Debug\0903.exe
+C:\Users\anihy\source\repos\C#\0903\0903\obj\Debug\0903.pdb

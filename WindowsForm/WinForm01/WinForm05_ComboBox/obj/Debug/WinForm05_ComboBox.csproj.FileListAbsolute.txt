@@ -1,0 +1,9 @@
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm05_ComboBox\bin\Debug\WinForm05_ComboBox.exe.config
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm05_ComboBox\bin\Debug\WinForm05_ComboBox.exe
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm05_ComboBox\bin\Debug\WinForm05_ComboBox.pdb
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm05_ComboBox\obj\Debug\WinForm05_ComboBox.csprojAssemblyReference.cache
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm05_ComboBox\obj\Debug\WinForm05_ComboBox.Form1.resources
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm05_ComboBox\obj\Debug\WinForm05_ComboBox.Properties.Resources.resources
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm05_ComboBox\obj\Debug\WinForm05_ComboBox.csproj.GenerateResource.cache
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm05_ComboBox\obj\Debug\WinForm05_ComboBox.exe
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm05_ComboBox\obj\Debug\WinForm05_ComboBox.pdb

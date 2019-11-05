@@ -1,0 +1,7 @@
+C:\Users\anihy\source\repos\Properties2\Properties2\bin\Debug\Properties2.exe.config
+C:\Users\anihy\source\repos\Properties2\Properties2\bin\Debug\Properties2.exe
+C:\Users\anihy\source\repos\Properties2\Properties2\bin\Debug\Properties2.pdb
+C:\Users\anihy\source\repos\Properties2\Properties2\obj\Debug\Properties2.csprojAssemblyReference.cache
+C:\Users\anihy\source\repos\Properties2\Properties2\obj\Debug\Properties2.csproj.CoreCompileInputs.cache
+C:\Users\anihy\source\repos\Properties2\Properties2\obj\Debug\Properties2.exe
+C:\Users\anihy\source\repos\Properties2\Properties2\obj\Debug\Properties2.pdb

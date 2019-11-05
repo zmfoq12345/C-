@@ -1,0 +1,7 @@
+C:\Users\anihy\source\repos\C#\HellowWorld\HellowWorld\bin\Debug\HellowWorld.exe.config
+C:\Users\anihy\source\repos\C#\HellowWorld\HellowWorld\bin\Debug\HellowWorld.exe
+C:\Users\anihy\source\repos\C#\HellowWorld\HellowWorld\bin\Debug\HellowWorld.pdb
+C:\Users\anihy\source\repos\C#\HellowWorld\HellowWorld\obj\Debug\HellowWorld.csprojAssemblyReference.cache
+C:\Users\anihy\source\repos\C#\HellowWorld\HellowWorld\obj\Debug\HellowWorld.csproj.CoreCompileInputs.cache
+C:\Users\anihy\source\repos\C#\HellowWorld\HellowWorld\obj\Debug\HellowWorld.exe
+C:\Users\anihy\source\repos\C#\HellowWorld\HellowWorld\obj\Debug\HellowWorld.pdb

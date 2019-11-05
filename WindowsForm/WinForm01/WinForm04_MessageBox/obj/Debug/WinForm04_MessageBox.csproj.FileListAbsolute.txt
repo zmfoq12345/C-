@@ -1,0 +1,9 @@
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm04_MessageBox\bin\Debug\WinForm04_MessageBox.exe.config
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm04_MessageBox\bin\Debug\WinForm04_MessageBox.exe
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm04_MessageBox\bin\Debug\WinForm04_MessageBox.pdb
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm04_MessageBox\obj\Debug\WinForm04_MessageBox.csprojAssemblyReference.cache
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm04_MessageBox\obj\Debug\WinForm04_MessageBox.Form1.resources
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm04_MessageBox\obj\Debug\WinForm04_MessageBox.Properties.Resources.resources
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm04_MessageBox\obj\Debug\WinForm04_MessageBox.csproj.GenerateResource.cache
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm04_MessageBox\obj\Debug\WinForm04_MessageBox.exe
+C:\Users\anihy\source\repos\C#\WindowsForm\WinForm01\WinForm04_MessageBox\obj\Debug\WinForm04_MessageBox.pdb
