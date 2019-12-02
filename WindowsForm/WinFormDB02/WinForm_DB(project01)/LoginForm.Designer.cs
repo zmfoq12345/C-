@@ -148,6 +148,7 @@
             this.tb_name.Size = new System.Drawing.Size(151, 21);
             this.tb_name.TabIndex = 7;
             this.tb_name.Visible = false;
+            this.tb_name.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_name_KeyPress);
             // 
             // LoginForm
             // 

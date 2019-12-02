@@ -21,6 +21,7 @@ namespace WinForm_DB_project01_
         LoginForm lform = new LoginForm();
         MySqlDataAdapter adapter;
         DataSet dataSet;
+        string admin = "";
         private void Form1_Load(object sender, EventArgs e)
         {
             adapter = new MySqlDataAdapter("SELECT * FROM 상품", lform.conn); // dataSet과 DB 연결
@@ -35,8 +36,11 @@ namespace WinForm_DB_project01_
             LoginForm lformtmp = Owner as LoginForm;
             if (lformtmp != null)
             {
-                if (lformtmp.name == "Admin")
+                admin = lformtmp.name;
+                label3.Text = lformtmp.level;
+                if (admin == "Admin")
                 {
+                    dataGridView1.ReadOnly = false;
                     this.title.Location = new System.Drawing.Point(4, 12);
                     this.btn_search.Location = new System.Drawing.Point(468, 147);
                     this.search_list.Location = new System.Drawing.Point(50, 149);
@@ -50,6 +54,7 @@ namespace WinForm_DB_project01_
                 }
                 else
                 {
+                    dataGridView1.ReadOnly = true;
                     this.title.Location = new System.Drawing.Point(195, 9); 
                     this.tb_search.Location = new System.Drawing.Point(130, 79);
                     this.lb_search.Location = new System.Drawing.Point(11, 83);
@@ -94,13 +99,12 @@ namespace WinForm_DB_project01_
             {
                 search(tb_search.Text, "SELECT * FROM 상품 WHERE " + search_list.Text + " = @a");
             }
-
-            //radioButton1.Checked = false;
-            //radioButton2.Checked = false;
-            //radioButton3.Checked = false;
-            //radioButton4.Checked = false;
-            //radioButton5.Checked = false;
-            //radioButton6.Checked = false;
+            radioButton1.Checked = false;
+            radioButton2.Checked = false;
+            radioButton3.Checked = false;
+            radioButton4.Checked = false;
+            radioButton5.Checked = false;
+            radioButton6.Checked = false;
         }
         private void btn_remove_Click(object sender, EventArgs e)
         {
@@ -116,6 +120,7 @@ namespace WinForm_DB_project01_
                     dataSet.Clear();
                     adapter.Fill(dataSet, "상품");
                     dataGridView1.DataSource = dataSet.Tables["상품"];
+                    MessageBox.Show("물품이 삭제되었습니다..");
                 }
                 else
                 {
@@ -174,7 +179,7 @@ namespace WinForm_DB_project01_
         }
         private void dataGridView1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
+            if (e.KeyCode == Keys.Enter && admin == "Admin")
             {
                 btn_update_Click(sender, e);
             }

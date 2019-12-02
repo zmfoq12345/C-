@@ -19,6 +19,7 @@ namespace WinForm_DB_project01_
             InitializeComponent();
         }
         public string name = "";
+        public string level = "";
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
@@ -36,11 +37,16 @@ namespace WinForm_DB_project01_
                     MessageBox.Show("관리자 계정 생성을 시도했습니다.\n관리자 계정은 특별한 경로로 생성 가능합니다.");
                     return;
                 }
+                if (id == "" || pw == "" || tb_name.Text == "")
+                {
+                    MessageBox.Show("빈칸을 모두 입력해 주세요");
+                    return;
+                }
                 InsertUser(id, pw, tb_name.Text);
             }
             else
             {
-                if (id == "" && pw == "")
+                if (id == "" || pw == "")
                 {
                     MessageBox.Show("아이디와 비밀번호를 모두 입력해 주세요");
                     return;
@@ -48,6 +54,7 @@ namespace WinForm_DB_project01_
                 islogin(id, pw);
                 if (login_Check)
                 {
+                    GetTopLevel(id);
                     MainForm form1 = new MainForm();
                     form1.Owner = this;
                     form1.Show();
@@ -56,6 +63,38 @@ namespace WinForm_DB_project01_
             }
             
         }
+        private void GetTopLevel(string id)
+        {
+            string sql = "SELECT 등급 FROM 회원 WHERE 회원아이디 = @id and 이름 = @name";
+            MySqlCommand cmd = new MySqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.Parameters.AddWithValue("@name", name);
+            try
+            {
+                conn.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    level = reader.GetString("등급");
+                }
+                else
+                {
+                    MessageBox.Show("err");
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+
         private void InsertUser(string id, string pw, string name)
         {
             string sql = "insert into 로그인 (회원아이디, 비밀번호, 이름) values (@id, @pw, @name)";
@@ -108,6 +147,7 @@ namespace WinForm_DB_project01_
             }
         }
 
+
         private void islogin(string id, string pw)
         {
             string sql = "SELECT 이름 FROM 로그인 WHERE 회원아이디 = @id and 비밀번호 = @pw";
@@ -142,7 +182,6 @@ namespace WinForm_DB_project01_
                 conn.Close();
             }
         }
-
         private void btn_signin_Click(object sender, EventArgs e)
         {
             if (mode.Text == "회원가입하기")
@@ -170,6 +209,7 @@ namespace WinForm_DB_project01_
             
         }
 
+
         private void tb_pw_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter)
@@ -177,10 +217,17 @@ namespace WinForm_DB_project01_
                 btn_login.PerformClick();
             }
         }
-
+        private void tb_name_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                btn_login.PerformClick();
+            }
+        }
         private void LoginForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             conn.Close();
         }
+
     }
 }
