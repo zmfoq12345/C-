@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm_DB(project01)", "Wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormExcel", "WinFormExel\WinFormExcel.csproj", "{67BDBC0F-36BF-444A-B7D9-72A1DBC90211}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormDB__Project2-KeyboardWarrior-", "WinFormDB__Project2-KeyboardWarrior-\WinFormDB__Project2-KeyboardWarrior-.csproj", "{46FD5BEB-9DC3-4AC6-B147-23BDA69E8728}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,10 @@ Global
 		{67BDBC0F-36BF-444A-B7D9-72A1DBC90211}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67BDBC0F-36BF-444A-B7D9-72A1DBC90211}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67BDBC0F-36BF-444A-B7D9-72A1DBC90211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46FD5BEB-9DC3-4AC6-B147-23BDA69E8728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46FD5BEB-9DC3-4AC6-B147-23BDA69E8728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46FD5BEB-9DC3-4AC6-B147-23BDA69E8728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46FD5BEB-9DC3-4AC6-B147-23BDA69E8728}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +121,7 @@ Global
 		{4E69F791-CBAD-4D17-9BBE-368AE662716C} = {1F50E2D8-1722-4A0F-AFCE-02AE17A89E9A}
 		{1E22F7A2-52D1-4043-BF19-DF75C3FA22A4} = {1F50E2D8-1722-4A0F-AFCE-02AE17A89E9A}
 		{16EE4BA2-3DC8-4A37-B41D-3D1ADB39C180} = {1F50E2D8-1722-4A0F-AFCE-02AE17A89E9A}
+		{46FD5BEB-9DC3-4AC6-B147-23BDA69E8728} = {1F50E2D8-1722-4A0F-AFCE-02AE17A89E9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43174FAD-4CC4-4E82-B7C8-8D024D841358}

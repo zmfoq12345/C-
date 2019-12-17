@@ -134,6 +134,7 @@ namespace WinForm_DB_project01_
                 if (cmd.ExecuteNonQuery() == 1)
                 {
                     MessageBox.Show("회원가입 완료!");
+                    tb_name.Clear();
                     btn_signin.PerformClick();
                 }
             }

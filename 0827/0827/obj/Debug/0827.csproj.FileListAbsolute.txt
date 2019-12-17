@@ -2,6 +2,5 @@ C:\Users\anihy\source\repos\C#\0827\0827\bin\Debug\0827.exe.config
 C:\Users\anihy\source\repos\C#\0827\0827\bin\Debug\0827.exe
 C:\Users\anihy\source\repos\C#\0827\0827\bin\Debug\0827.pdb
 C:\Users\anihy\source\repos\C#\0827\0827\obj\Debug\0827.csprojAssemblyReference.cache
-C:\Users\anihy\source\repos\C#\0827\0827\obj\Debug\0827.csproj.CoreCompileInputs.cache
 C:\Users\anihy\source\repos\C#\0827\0827\obj\Debug\0827.exe
 C:\Users\anihy\source\repos\C#\0827\0827\obj\Debug\0827.pdb
